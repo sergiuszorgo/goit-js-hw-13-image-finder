@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(39, 42, 42);
 }
 
 ul {
@@ -16,6 +17,10 @@ ul {
 
 .hiden {
   display: none;
+}
+
+.input {
+  height: 30px;
 }
 
 .gallery {
@@ -33,10 +38,19 @@ ul {
 .placeForButton {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .cardset {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
+}
+
+.photo-card {
+  margin: 5px;
+}
+
+.stats {
+  background-color: whitesmoke;
 }
